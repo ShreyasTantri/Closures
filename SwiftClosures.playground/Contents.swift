@@ -69,7 +69,7 @@ func doWork() -> () -> String {
 }
 
 let result = doWork()
-result()
+print(result())
 
 // III. Return value
 func makeMultiplier(_ factor: Int) -> (Int) -> Int {
